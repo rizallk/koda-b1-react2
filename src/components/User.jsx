@@ -47,7 +47,7 @@ export default function User() {
           onChange={(e) => setSearchName(e.target.value)}
         />
         <button
-          className="bg-fuchsia-600 text-white p-2.5 rounded-md cursor-pointer hover:bg-fuchsia-700 transition"
+          className="bg-fuchsia-600 text-white px-3 py-2 rounded-md cursor-pointer hover:bg-fuchsia-700 transition"
           onClick={fetchUser}
         >
           Cari
